@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 18.0.1 - 2021-02-01
+
+## Fixes
+
+* Updated `DTS\eBaySDK\Parser\XmlParser.php` for PHP 7.3.
+
 ## 18.0.0 - 2018-06-28
 
 ### Features
