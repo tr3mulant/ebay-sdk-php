@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 18.0.2 - 2022-01-11
+
+## Features
+
+* Support Feed Task API added
+
 ## 18.0.1 - 2021-02-01
 
 ## Fixes

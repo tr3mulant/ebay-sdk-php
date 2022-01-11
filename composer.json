@@ -16,7 +16,7 @@
         "issues": "https://github.com/kuser/ebay-sdk-php/issues"
     },
     "require": {
-        "php": ">=5.5",
+        "php": ">=7.4",
         "guzzlehttp/guzzle": "~6.0",
         "guzzlehttp/psr7": "~1.0",
         "guzzlehttp/promises": "^1.1"
