@@ -14,6 +14,7 @@ class UriResolver
         'bool' => 'is_bool',
         'callable' => 'is_callable',
         'int' => 'is_int',
+        'integer' => 'is_int',
         'string' => 'is_string'
     ];
 

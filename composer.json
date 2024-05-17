@@ -1,43 +1,51 @@
 {
-    "name": "benmorel/ebay-sdk-php",
-    "description": "An eBay SDK for PHP. Fork of dts/ebay-sdk-php with support for PHP 8.",
-    "keywords": ["ebay", "api", "sdk"],
-    "type": "library",
-    "license": "(Apache-2.0 and MIT)",
-    "authors": [
-        {
-            "name": "David T. Sadler",
-            "email": "davidtsadler@googlemail.com",
-            "homepage": "http://davidtsadler.com"
-        },
-        {
-          "name": "Benjamin Morel",
-          "email": "benjamin.morel@gmail.com"
-        }
-    ],
-    "require": {
-        "php-64bit": "^7.2 || ^8.0",
-        "ext-curl": "*",
-        "ext-libxml": "*",
-        "guzzlehttp/guzzle": "^6.0 || ^7.0",
-        "guzzlehttp/psr7": "^1.7 || ^2.0",
-        "guzzlehttp/promises": "^1.1"
+  "name": "benmorel/ebay-sdk-php",
+  "description": "An eBay SDK for PHP. Fork of dts/ebay-sdk-php with support for PHP 8.",
+  "keywords": [
+    "ebay",
+    "api",
+    "sdk"
+  ],
+  "type": "library",
+  "license": "(Apache-2.0 and MIT)",
+  "authors": [
+    {
+      "name": "David T. Sadler",
+      "email": "davidtsadler@googlemail.com",
+      "homepage": "http://davidtsadler.com"
     },
-    "require-dev": {
-        "phpunit/phpunit": "^8.0 || ^9.0",
-        "phpstan/phpstan": "^1.10",
-        "phpstan/phpstan-deprecation-rules": "^1.1"
-    },
-    "autoload": {
-        "psr-4": {
-            "DTS\\eBaySDK\\": "src/"
-        },
-        "files": ["src/functions.php"]
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "DTS\\eBaySDK\\Test\\": "test/"
-        },
-        "classmap": ["build/"]
+    {
+      "name": "Benjamin Morel",
+      "email": "benjamin.morel@gmail.com"
     }
+  ],
+  "require": {
+    "php-64bit": "^7.2 || ^8.0",
+    "ext-curl": "*",
+    "ext-libxml": "*",
+    "guzzlehttp/guzzle": "^6.0 || ^7.0",
+    "guzzlehttp/psr7": "^1.7 || ^2.0",
+    "guzzlehttp/promises": "^1.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.0 || ^9.0",
+    "phpstan/phpstan": "^1.10",
+    "phpstan/phpstan-deprecation-rules": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "DTS\\eBaySDK\\": "src/"
+    },
+    "files": [
+      "src/functions.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "DTS\\eBaySDK\\Test\\": "test/"
+    },
+    "classmap": [
+      "build/"
+    ]
+  }
 }
